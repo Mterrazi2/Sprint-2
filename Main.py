@@ -1,5 +1,5 @@
 # Michael Terrazi
-# GitHub: https://github.com/Mterrazi2/Sprint-2/blob/main/Main_2.py
+# GitHub: https://github.com/Mterrazi2/Sprint-2/blob/main/Main.py
 # This program is a calculator that calculates KDA ratio for Call Of Duty
 
 # Math Program:
@@ -25,7 +25,7 @@ print(2 - 8)
 if 2 < 4:
     print("True")
 else:
-    print("false")
+    print(false)
 # If Else Statements
 
 print(8 == 8)
@@ -61,6 +61,62 @@ def calculate(radius):
 
 # Function with return parameters
 
+# Bitwise Operators
+print(2 << 4)
+print(6 >> 4)
+print(6 & 4)
+print(9 | 2)
+print(~10)
+print(4 ^ 7)
+
+# Simple Lists
+my_list2 = ["S&D", "TDM", "CTF"]
+x = len(my_list2)
+print(x)
+# adds up the columns in a list
+my_list2.append("HDP")
+print(my_list2)
+# puts another variable in a list
+my_list2.insert(1, "HDP")
+print(my_list2)
+# insert variable in a certain part in the column
+x = my_list2.index("TDM")
+print(x)
+# counts where the variable is, in the column
+my_list3 = ["a", "d", "f", "c"]
+x = sorted(my_list3)
+print(x)
+# sorts the list in order
+del my_list3[2]
+print(my_list3)
+# Removes the variable from the list
+AC_Valhalla = {
+    "brand": "Valhalla",
+    "company": "Ubisoft",
+    "year": 2020
+}
+x = AC_Valhalla.keys()
+AC_Valhalla["Series#"] = "6th"
+print(x)
+# notes key variables
+
+AC_Valhalla = {
+    "brand": "Valhalla",
+    "company": "Ubisoft",
+    "year": 2020
+}
+x = AC_Valhalla.items()
+print(x)
+# makes a list of items
+
+AC_Valhalla = {
+    "brand": "Valhalla",
+    "company": "Ubisoft",
+    "year": 2020
+}
+x = AC_Valhalla.values()
+print(x)
+# notes certain variables
 
 # Project Program
 print("\nHello", " greetings!", sep=' &')
